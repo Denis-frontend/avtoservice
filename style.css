@@ -250,40 +250,42 @@ h5 {
     color: #fff;
   }
 
-/* \\\\\\\\\\\\\\\\\\\\\\\\\ вызов замерщика \\\\\\\\\\\\\\\\\\\\\\ */
-
-.measure__bg {
-  background-image: url(img/measure.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 219px;
-}
-
-.measure__title {
-  font-weight: bold;
-  font-size: 36px;
-  color: #4f4c4c;
-  padding-top: 40px;
-  padding-bottom: 30px;
-}
-
-.measure__btn {
-  width: 272px;
-  height: 62px;
-  background: #46b1d0;
-  border: 0;
-  color: #fff;
-  font-size: 18px;
-  margin-bottom: 30px;
-}
-
-  /* \\\\\\\\\\\\\\\\\ Наши услуги \\\\\\\\\\\\\\\\\\\\\\ */
-  .services{
-    margin-top: 96px;
+  /* \\\\\\\\\\\\\\\\\\\\\\\\\ вызов замерщика \\\\\\\\\\\\\\\\\\\\\\ */
+  .measure {
+    margin-bottom: 100px;
   }
 
+  .measure__bg {
+    background-image: url(img/measure.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 219px;
+  }
+
+  .measure__title {
+    font-weight: bold;
+    font-size: 36px;
+    color: #4f4c4c;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .measure__btn {
+    width: 272px;
+    height: 62px;
+    background: #46b1d0;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  /* \\\\\\\\\\\\\\\\\ Наши услуги \\\\\\\\\\\\\\\\\\\\\\ */
+  .services {
+    margin-top: 96px;
+  }
 
   .row.services__wrap {
     margin-bottom: 50px;
@@ -317,9 +319,9 @@ h5 {
   }
   /* \\\\\\\\\\\\\\\\\ Наши работы \\\\\\\\\\\\\\\\\\\\\\ */
 
-    .our-works{
-      margin-top: 100px;
-    }
+  .our-works {
+    margin-top: 100px;
+  }
   .h2__title {
     font-weight: bold;
     font-size: 36px;
@@ -379,9 +381,6 @@ h5 {
   }
 
   /* \\\\\\\\\\\\\\\\\\\\\\\ фотогалерея \\\\\\\\\\\\\\\\ */
- 
-
-
 
   .slider__wrap {
     position: relative;
@@ -500,10 +499,10 @@ h5 {
   }
 
   /*  \\\\\\\\\\\\\\\\\ Остались вопросы? \\\\\\\\\\\\\\\ */
-  .form{
+  .form {
     margin-top: 100px;
   }
-  
+
   .form__card {
     border: 0;
     margin-top: 14px;
@@ -814,8 +813,7 @@ h5 {
     margin-left: 35px;
   }
 
-  .map{
+  .map {
     margin-top: 64px;
   }
-
 }
