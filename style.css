@@ -59,10 +59,17 @@ h5 {
     padding-top: 30px;
   }
 
-  i.fas,
-  i.far {
-    color: #46b1d0;
-  }
+  i.fas, i.far {
+    font-size: 15px;
+    color: #fff;
+    background: #46b1d0;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    padding-right: 7px;
+    padding-top: 8px;
+    margin-right: 10px;
+}
 
   ul.main {
     margin-top: 55px;
@@ -76,7 +83,7 @@ h5 {
   .contacts li {
     font-size: 24px;
     color: #232323;
-    padding-right: 50px;
+    padding-right: 35px;
   }
 
   ul li.name__company {
@@ -102,7 +109,7 @@ h5 {
   }
 
   li.address i {
-    padding-right: 15px;
+    padding-right: 10px;
   }
 
   .navbar {
