@@ -59,7 +59,8 @@ h5 {
     padding-top: 30px;
   }
 
-  i.fas, i.far {
+  i.fas,
+  i.far {
     font-size: 15px;
     color: #fff;
     background: #46b1d0;
@@ -69,7 +70,7 @@ h5 {
     padding-right: 7px;
     padding-top: 8px;
     margin-right: 10px;
-}
+  }
 
   ul.main {
     margin-top: 55px;
@@ -355,6 +356,26 @@ h5 {
     width: 295px;
     height: 234px;
   }
+  .our-works_btn_slider {
+    display: block;
+    background: #46b1d0;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 18px;
+    padding: 11px 76px;
+    max-width: 249px;
+    position: absolute;
+    top: 260px;
+    left: 340px;
+  }
+
+  .our-works_btn_slider:hover {
+    text-decoration: none;
+    color: #fff;
+  }
 
   .our-works__block {
     margin-left: 30px;
@@ -387,7 +408,7 @@ h5 {
     padding: 11px;
   }
 
-  .our-works_btn:hover{
+  .our-works_btn:hover {
     text-decoration: none;
     color: #fff;
   }
