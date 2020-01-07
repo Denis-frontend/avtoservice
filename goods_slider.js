@@ -10,4 +10,4 @@ document.body.onclick = function (event) {
     document.getElementById('goods-max').src = event.target.src;
     event.target.parentElement.classList.add('active');
   }
-}
+};
