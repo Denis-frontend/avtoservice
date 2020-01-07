@@ -506,16 +506,17 @@ h5 {
   }
 
   .articles__btn {
-    width: 249px;
-    height: 49px;
+    margin-left: 30px;
+    margin-bottom: 41px;
+    display: block;
     background: #46b1d0;
     border: 0;
     border-radius: 10px;
     color: #fff;
     font-size: 18px;
     text-align: center;
-    margin-left: 30px;
-    margin-bottom: 41px;
+    padding: 11px;
+    max-width: 249px;
   }
 
   .articles__btn__greey {
