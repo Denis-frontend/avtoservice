@@ -519,6 +519,11 @@ h5 {
     max-width: 249px;
   }
 
+  .articles__btn:hover{
+    text-decoration: none;
+    color: #fff;
+  }
+
   .articles__btn__greey {
     width: 249px;
     height: 49px;
