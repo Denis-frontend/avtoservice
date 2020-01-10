@@ -151,7 +151,7 @@ h5 {
     background-image: url(img/bg_two.png);
     height: 586px;
     max-width: 100%;
-    background-position: center center;
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
   }
