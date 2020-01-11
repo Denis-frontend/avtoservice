@@ -198,7 +198,176 @@ h5 {
     font-size: 36px;
     padding-top: 30px;
   }
+
+  /*\\\\\\\\\ о компании \\\\\\\\\ */
+
+  .company__text__one,
+  .company__text__two {
+    width: 563px;
+    color: #4f4c4c;
+    font-size: 14px;
+    line-height: 140%;
+  }
+
+  .company__text__one {
+    padding-bottom: 50px;
+  }
+
+  .company__text__two {
+    margin-left: 61px;
+  }
+
+  img.company__img__one,
+  img.company__img__two {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+    /* \\\\\\\\\\\галерея\\\\\\\\\\ */
+    .card-body__gallery {
+      position: relative;
+      width: 360px;
+      height: 300px;
+      margin: 0 auto;
+      margin-top: 50px;
+    }
+    .wrap__gallery a {
+      font-weight: bold;
+      font-size: 24px;
+      color: #4f4c4c;
+      padding-left: 16px;
+    }
+    
+    .bg__img__gallery__one {
+      position: absolute;
+      width: 315.46px;
+      height: 254.54px;
+      background: #ffffff;
+      border: 1px solid #bfbfbf;
+      box-sizing: border-box;
+      border-radius: 5px;
+      left: 23px;
+      background-image: url(img/gallery.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+    
+    .bg__img__gallery__two {
+      position: absolute;
+      width: 314.52px;
+      height: 255.48px;
+      left: 24px;
+      top: 1px;
+      background: #ffffff;
+      border: 1px solid #bfbfbf;
+      box-sizing: border-box;
+      border-radius: 5px;
+      transform: matrix(0.98, -0.16, 0.19, 0.99, 0, 0);
+    }
+    .bg__img__gallery__three {
+      position: absolute;
+      width: 314.51px;
+      height: 255.47px;
+      left: 24px;
+      top: 1px;
+      background: #ffffff;
+      border: 1px solid #bfbfbf;
+      box-sizing: border-box;
+      border-radius: 5px;
+      transform: matrix(0.98, 0.16, -0.19, 0.99, 0, 0);
+    }
+
   /* \\\\\\\\\\\\\\\\\ Наши работы \\\\\\\\\\\\\\\\\\\\\\ */
+
+  .img__min {
+    margin-left: 29px;
+  }
+
+  .img__min img {
+    padding-bottom: 10px;
+  }
+
+  img.goods-min {
+    width: 71px;
+    height: 71px;
+  }
+
+  img#goods-max {
+    width: 390px;
+    height: 284px;
+  }
+
+  .our-works__title {
+    font-weight: bold;
+    font-size: 24px;
+    color: #4f4c4c;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  .work {
+    width: 162px;
+    margin-right: 46px;
+    margin-bottom: 77px;
+    position: relative;
+  }
+
+  .work h4 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #4f4c4c;
+  }
+
+  .work p {
+    font-size: 14px;
+    color: #4f4c4c;
+  }
+
+  .price h4 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .price p {
+    font-weight: bold;
+    font-size: 42px;
+    color: #f2c877;
+  }
+
+  .price__btn {
+    display: block;
+    background: #46b1d0;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 18px;
+    padding: 11px 76px;
+    max-width: 249px;
+    position: absolute;
+    top: 260px;
+    left: 340px;
+  }
+
+  .our-works__wrapper {
+    margin-bottom: 89px;
+  }
+
+  .our-works__btn__greey {
+    width: 249px;
+    height: 49px;
+    background: #efeded;
+    border: 0;
+    border-radius: 10px;
+    color: #4f4c4c;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .button__greey {
+    margin-top: 50px;
+  }
 
   .our-works {
     margin-top: 50px;
@@ -238,11 +407,11 @@ h5 {
     font-size: 18px;
     text-align: center;
     margin-top: 18px;
-    padding: 11px 76px;
+    padding: 11px 55px;
     max-width: 249px;
     position: absolute;
-    top: 260px;
-    left: 340px;
+    top: 280px;
+    left: 276px;
   }
 
   .our-works_btn_slider:hover {
@@ -519,6 +688,34 @@ h5 {
   [dir="rtl"] .slick-next:before {
     content: "\f053";
   }
+
+  *\\\\\\\\ Контакты \\\\\\\\*/
+.contacts__wrap {
+  margin: 64px 0 0 33px;
+}
+
+.contacts__head {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(43, 46, 68, 0.8);
+  margin-bottom: 15px;
+}
+
+.contacts__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #2b2e44;
+  margin-bottom: 41px;
+  margin-left: 5px;
+}
+
+.map {
+  margin-top: 64px;
+}
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -710,7 +907,177 @@ h5 {
     font-size: 36px;
     padding-top: 30px;
   }
+
+    /*\\\\\\\\\ о компании \\\\\\\\\ */
+
+    .company__text__one,
+    .company__text__two {
+      width: 563px;
+      color: #4f4c4c;
+      font-size: 14px;
+      line-height: 140%;
+    }
+  
+    .company__text__one {
+      padding-bottom: 50px;
+    }
+  
+    .company__text__two {
+      margin-left: 61px;
+    }
+  
+    img.company__img__one,
+    img.company__img__two {
+      padding-bottom: 20px;
+      text-align: center;
+    }
+
+    /* \\\\\\\\\\\галерея\\\\\\\\\\ */
+.card-body__gallery {
+  position: relative;
+  width: 360px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.wrap__gallery a {
+  font-weight: bold;
+  font-size: 24px;
+  color: #4f4c4c;
+  padding-left: 16px;
+}
+
+.bg__img__gallery__one {
+  position: absolute;
+  width: 315.46px;
+  height: 254.54px;
+  background: #ffffff;
+  border: 1px solid #bfbfbf;
+  box-sizing: border-box;
+  border-radius: 5px;
+  left: 23px;
+  background-image: url(img/gallery.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.bg__img__gallery__two {
+  position: absolute;
+  width: 314.52px;
+  height: 255.48px;
+  left: 24px;
+  top: 1px;
+  background: #ffffff;
+  border: 1px solid #bfbfbf;
+  box-sizing: border-box;
+  border-radius: 5px;
+  transform: matrix(0.98, -0.16, 0.19, 0.99, 0, 0);
+}
+.bg__img__gallery__three {
+  position: absolute;
+  width: 314.51px;
+  height: 255.47px;
+  left: 24px;
+  top: 1px;
+  background: #ffffff;
+  border: 1px solid #bfbfbf;
+  box-sizing: border-box;
+  border-radius: 5px;
+  transform: matrix(0.98, 0.16, -0.19, 0.99, 0, 0);
+}
+
   /* \\\\\\\\\\\\\\\\\ Наши работы \\\\\\\\\\\\\\\\\\\\\\ */
+
+
+  .img__min {
+    margin-left: 29px;
+  }
+
+  .img__min img {
+    padding-bottom: 10px;
+  }
+
+  img.goods-min {
+    width: 71px;
+    height: 71px;
+  }
+
+  img#goods-max {
+    width: 390px;
+    height: 284px;
+  }
+
+  .our-works__title {
+    font-weight: bold;
+    font-size: 24px;
+    color: #4f4c4c;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  .work {
+    width: 162px;
+    margin-right: 46px;
+    margin-bottom: 77px;
+    position: relative;
+  }
+
+  .work h4 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #4f4c4c;
+  }
+
+  .work p {
+    font-size: 14px;
+    color: #4f4c4c;
+  }
+
+  .price h4 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .price p {
+    font-weight: bold;
+    font-size: 42px;
+    color: #f2c877;
+  }
+
+  .price__btn {
+    display: block;
+    background: #46b1d0;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 18px;
+    padding: 11px 76px;
+    max-width: 249px;
+    position: absolute;
+    top: 260px;
+    left: 340px;
+  }
+
+  .our-works__wrapper {
+    margin-bottom: 89px;
+  }
+
+  .our-works__btn__greey {
+    width: 249px;
+    height: 49px;
+    background: #efeded;
+    border: 0;
+    border-radius: 10px;
+    color: #4f4c4c;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .button__greey {
+    margin-top: 50px;
+  }
 
   .our-works {
     margin-top: 50px;
@@ -750,11 +1117,11 @@ h5 {
     font-size: 18px;
     text-align: center;
     margin-top: 18px;
-    padding: 11px 76px;
+    padding: 11px 50px;
     max-width: 249px;
     position: absolute;
-    top: 260px;
-    left: 340px;
+    top: 290px;
+    left: 357px;
   }
 
   .our-works_btn_slider:hover {
@@ -797,6 +1164,42 @@ h5 {
   .our-works_btn:hover {
     text-decoration: none;
     color: #fff;
+  }
+
+  /* \\\\\\\\\\\\\\\\\ Наши услуги \\\\\\\\\\\\\\\\\\\\\\ */
+  .services {
+    margin-top: 46px;
+  }
+
+  .row.services__wrap {
+    margin-bottom: 50px;
+  }
+
+  .card__services {
+    max-width: 360px;
+    height: 341px;
+    border: 0;
+    margin: 0;
+    margin: 0 auto;
+  }
+
+  h5.card-title__services {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  h5.card-title__services a {
+    font-weight: bold;
+    font-size: 24px;
+    color: #4f4c4c;
+  }
+
+  h5.card-title__services a:hover {
+    font-weight: bold;
+    font-size: 24px;
+    color: #4f4c4c;
+    padding-top: 30px;
+    text-decoration: none;
   }
 
   /* \\\\\\\\\\\\\\\\\\\\\\\ фотогалерея \\\\\\\\\\\\\\\\ */
@@ -1032,6 +1435,35 @@ h5 {
     height: 100px;
     margin-top: 12px;
   }
+
+/*\\\\\\\\ Контакты \\\\\\\\*/
+.contacts__wrap {
+  margin: 64px 0 0 33px;
+}
+
+.contacts__head {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: rgba(43, 46, 68, 0.8);
+  margin-bottom: 15px;
+}
+
+.contacts__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #2b2e44;
+  margin-bottom: 41px;
+  margin-left: 5px;
+}
+
+.map {
+  margin-top: 64px;
+}
+
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -1224,7 +1656,173 @@ h5 {
     padding-top: 30px;
   }
 
+  /*\\\\\\\\\ о компании \\\\\\\\\ */
+
+  .company__text__one,
+  .company__text__two {
+    width: 563px;
+    color: #4f4c4c;
+    font-size: 14px;
+    line-height: 140%;
+  }
+
+  .company__text__one {
+    padding-bottom: 50px;
+  }
+
+  .company__text__two {
+    margin-left: 61px;
+  }
+
+  img.company__img__one,
+  img.company__img__two {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+/* \\\\\\\\\\\галерея\\\\\\\\\\ */
+.card-body__gallery {
+  position: relative;
+  width: 360px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.wrap__gallery a {
+  font-weight: bold;
+  font-size: 24px;
+  color: #4f4c4c;
+  padding-left: 16px;
+}
+
+.bg__img__gallery__one {
+  position: absolute;
+  width: 315.46px;
+  height: 254.54px;
+  background: #ffffff;
+  border: 1px solid #bfbfbf;
+  box-sizing: border-box;
+  border-radius: 5px;
+  left: 23px;
+  background-image: url(img/gallery.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.bg__img__gallery__two {
+  position: absolute;
+  width: 314.52px;
+  height: 255.48px;
+  left: 24px;
+  top: 1px;
+  background: #ffffff;
+  border: 1px solid #bfbfbf;
+  box-sizing: border-box;
+  border-radius: 5px;
+  transform: matrix(0.98, -0.16, 0.19, 0.99, 0, 0);
+}
+.bg__img__gallery__three {
+  position: absolute;
+  width: 314.51px;
+  height: 255.47px;
+  left: 24px;
+  top: 1px;
+  background: #ffffff;
+  border: 1px solid #bfbfbf;
+  box-sizing: border-box;
+  border-radius: 5px;
+  transform: matrix(0.98, 0.16, -0.19, 0.99, 0, 0);
+}
   /* \\\\\\\\\\\\\\\\\ Наши работы \\\\\\\\\\\\\\\\\\\\\\ */
+
+  .img__min {
+    margin-left: 29px;
+  }
+
+  .img__min img {
+    padding-bottom: 10px;
+  }
+
+  img.goods-min {
+    width: 71px;
+    height: 71px;
+  }
+
+  img#goods-max {
+    width: 488px;
+    height: 355px;
+  }
+
+  .our-works__title {
+    font-weight: bold;
+    font-size: 24px;
+    color: #4f4c4c;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  .work {
+    width: 162px;
+    margin-right: 46px;
+    margin-bottom: 77px;
+    position: relative;
+  }
+
+  .work h4 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #4f4c4c;
+  }
+
+  .work p {
+    font-size: 14px;
+    color: #4f4c4c;
+  }
+
+  .price h4 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .price p {
+    font-weight: bold;
+    font-size: 58px;
+    color: #f2c877;
+  }
+
+  .price__btn {
+    display: block;
+    background: #46b1d0;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 18px;
+    padding: 11px 76px;
+    max-width: 249px;
+    position: absolute;
+    top: 260px;
+    left: 340px;
+  }
+
+  .our-works__wrapper {
+    margin-bottom: 89px;
+  }
+
+  .our-works__btn__greey {
+    width: 249px;
+    height: 49px;
+    background: #efeded;
+    border: 0;
+    border-radius: 10px;
+    color: #4f4c4c;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .button__greey {
+    margin-top: 50px;
+  }
 
   .our-works {
     margin-top: 50px;
@@ -1312,6 +1910,43 @@ h5 {
     text-decoration: none;
     color: #fff;
   }
+
+  /* \\\\\\\\\\\\\\\\\ Наши услуги \\\\\\\\\\\\\\\\\\\\\\ */
+  .services {
+    margin-top: 46px;
+  }
+
+  .row.services__wrap {
+    margin-bottom: 50px;
+  }
+
+  .card__services {
+    max-width: 360px;
+    height: 341px;
+    border: 0;
+    margin: 0;
+    margin: 0 auto;
+  }
+
+  h5.card-title__services {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  h5.card-title__services a {
+    font-weight: bold;
+    font-size: 24px;
+    color: #4f4c4c;
+  }
+
+  h5.card-title__services a:hover {
+    font-weight: bold;
+    font-size: 24px;
+    color: #4f4c4c;
+    padding-top: 30px;
+    text-decoration: none;
+  }
+
   /* \\\\\\\\\\\\\\\\\\\\\\\ фотогалерея \\\\\\\\\\\\\\\\ */
   .slick-prev {
     left: -14px;
@@ -1381,8 +2016,6 @@ h5 {
   }
 
   .card__articles {
-    width: 230px;
-    height: 450px;
     border-radius: 0;
     border: 0;
     margin: auto;
@@ -1542,6 +2175,35 @@ h5 {
     height: 100px;
     margin-top: 12px;
   }
+
+  /*\\\\\\\\ Контакты \\\\\\\\*/
+  .contacts__wrap {
+    margin: 64px 0 128px 33px;
+  }
+
+  .contacts__head {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(43, 46, 68, 0.8);
+    margin-bottom: 15px;
+  }
+
+  .contacts__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #2b2e44;
+    margin-bottom: 41px;
+    margin-left: 5px;
+  }
+
+  .map {
+    margin-top: 64px;
+  }
+
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -1730,7 +2392,170 @@ h5 {
     padding-top: 30px;
   }
 
+  /*\\\\\\\\\ о компании \\\\\\\\\ */
+
+  .company__text__one,
+  .company__text__two {
+    width: 563px;
+    color: #4f4c4c;
+    font-size: 14px;
+    line-height: 140%;
+  }
+
+  .company__text__one {
+    padding-bottom: 50px;
+  }
+
+  .company__text__two {
+    margin-left: 61px;
+  }
+
+  img.company__img__one,
+  img.company__img__two {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+/* \\\\\\\\\\\галерея\\\\\\\\\\ */
+.card-body__gallery {
+  position: relative;
+  width: 360px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.wrap__gallery a {
+  font-weight: bold;
+  font-size: 24px;
+  color: #4f4c4c;
+  padding-left: 16px;
+}
+
+.bg__img__gallery__one {
+  position: absolute;
+  width: 315.46px;
+  height: 254.54px;
+  background: #ffffff;
+  border: 1px solid #bfbfbf;
+  box-sizing: border-box;
+  border-radius: 5px;
+  left: 23px;
+  background-image: url(img/gallery.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.bg__img__gallery__two {
+  position: absolute;
+  width: 314.52px;
+  height: 255.48px;
+  left: 24px;
+  top: 1px;
+  background: #ffffff;
+  border: 1px solid #bfbfbf;
+  box-sizing: border-box;
+  border-radius: 5px;
+  transform: matrix(0.98, -0.16, 0.19, 0.99, 0, 0);
+}
+.bg__img__gallery__three {
+  position: absolute;
+  width: 314.51px;
+  height: 255.47px;
+  left: 24px;
+  top: 1px;
+  background: #ffffff;
+  border: 1px solid #bfbfbf;
+  box-sizing: border-box;
+  border-radius: 5px;
+  transform: matrix(0.98, 0.16, -0.19, 0.99, 0, 0);
+}
   /* \\\\\\\\\\\\\\\\\ Наши работы \\\\\\\\\\\\\\\\\\\\\\ */
+ 
+  .img__min {
+    margin-left: 29px;
+  }
+
+  .img__min img {
+    padding-bottom: 10px;
+  }
+
+  img.goods-min {
+    width: 71px;
+    height: 71px;
+  }
+
+  img#goods-max {
+    width: 390px;
+    height: 284px;
+  }
+
+  .our-works__title {
+    font-weight: bold;
+    font-size: 24px;
+    color: #4f4c4c;
+    padding-bottom: 30px;
+  }
+
+  .work {
+    width: 162px;
+    margin-right: 46px;
+    margin-bottom: 77px;
+    position: relative;
+  }
+
+  .work h4 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #4f4c4c;
+  }
+
+  .work p {
+    font-size: 14px;
+    color: #4f4c4c;
+  }
+
+  .price h4 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .price p {
+    font-weight: bold;
+    font-size: 42px;
+    color: #f2c877;
+  }
+
+  .price__btn {
+    width: 249px;
+    height: 49px;
+    background: #46b1d0;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    left: 336px;
+    top: 276px;
+  }
+
+  .our-works__wrapper {
+    margin-bottom: 89px;
+  }
+
+  .our-works__btn__greey {
+    width: 249px;
+    height: 49px;
+    background: #efeded;
+    border: 0;
+    border-radius: 10px;
+    color: #4f4c4c;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .button__greey {
+    margin-top: 50px;
+  }
 
   .our-works {
     margin-top: 50px;
@@ -1770,11 +2595,11 @@ h5 {
     font-size: 18px;
     text-align: center;
     margin-top: 18px;
-    padding: 11px 76px;
+    padding: 11px 55px;
     max-width: 249px;
     position: absolute;
-    top: 260px;
-    left: 340px;
+    top: 280px;
+    left: 276px;
   }
 
   .our-works_btn_slider:hover {
@@ -1816,6 +2641,42 @@ h5 {
   .our-works_btn:hover {
     text-decoration: none;
     color: #fff;
+  }
+
+   /* \\\\\\\\\\\\\\\\\ Наши услуги \\\\\\\\\\\\\\\\\\\\\\ */
+   .services {
+    margin-top: 46px;
+  }
+
+  .row.services__wrap {
+    margin-bottom: 50px;
+  }
+
+  .card__services {
+    max-width: 360px;
+    height: 341px;
+    border: 0;
+    margin: 0;
+    margin: 0 auto;
+  }
+
+  h5.card-title__services {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  h5.card-title__services a {
+    font-weight: bold;
+    font-size: 24px;
+    color: #4f4c4c;
+  }
+
+  h5.card-title__services a:hover {
+    font-weight: bold;
+    font-size: 24px;
+    color: #4f4c4c;
+    padding-top: 30px;
+    text-decoration: none;
   }
 
   /* \\\\\\\\\\\\\\\\\\\\\\\ фотогалерея \\\\\\\\\\\\\\\\ */
@@ -1888,8 +2749,6 @@ h5 {
   }
 
   .card__articles {
-    width: 300px;
-    height: 450px;
     border-radius: 0;
     border: 0;
     margin: auto;
@@ -2047,6 +2906,35 @@ h5 {
     height: 58px;
     margin-top: 72px;
   }
+
+  /*\\\\\\\\ Контакты \\\\\\\\*/
+  .contacts__wrap {
+    margin: 64px 0 128px 66px;
+  }
+
+  .contacts__head {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(43, 46, 68, 0.8);
+    margin-bottom: 15px;
+  }
+
+  .contacts__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #2b2e44;
+    margin-bottom: 41px;
+    margin-left: 35px;
+  }
+
+  .map {
+    margin-top: 64px;
+  }
+
 }
 
 @media (min-width: 1200px) {
@@ -2713,6 +3601,11 @@ h5 {
     margin-left: 61px;
   }
 
+  img.company__img__one,
+  img.company__img__two {
+    padding-bottom: 20px;
+    text-align: center;
+  }
   /*\\\\\\\\\\\\ наши работы \\\\\\\\\ */
 
   .img__min {
@@ -2807,7 +3700,7 @@ h5 {
     color: #4f4c4c;
     margin-bottom: 26px;
   }
-
+/* \\\\\\\\\\\галерея\\\\\\\\\\ */
   .card-body__gallery {
     position: relative;
     width: 360px;
