@@ -2019,6 +2019,8 @@ h5 {
     border-radius: 0;
     border: 0;
     margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
   .card-body__bg {
@@ -2071,8 +2073,6 @@ h5 {
     border-radius: 10px;
     color: #4f4c4c;
     font-size: 18px;
-    margin-top: 416px;
-    margin-right: 80px;
   }
   /*  \\\\\\\\\\\\\\\\\ Остались вопросы? \\\\\\\\\\\\\\\ */
   .form {
