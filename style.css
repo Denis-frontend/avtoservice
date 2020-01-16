@@ -156,7 +156,7 @@ h5 {
   }
 
   .header {
-    background-image: url(../img/bg.png);
+    background-image: url(img/bg.png);
     height: 700px;
     max-width: 100%;
     background-position: center bottom;
@@ -260,7 +260,7 @@ h5 {
   /* \\\\\\\\\\\галерея\\\\\\\\\\ */
   .card-body__gallery {
     position: relative;
-    height: 300px;
+    height: 250px;
     margin: 0 auto;
     margin-top: 50px;
   }
@@ -273,23 +273,23 @@ h5 {
 
   .bg__img__gallery__one {
     position: absolute;
-    width: 44vh;
-    height: 36vh;
+    width: 249px;
+    height: 199px;
     background: #ffffff;
     border: 1px solid #bfbfbf;
     box-sizing: border-box;
     border-radius: 5px;
     left: 23px;
-    background-image: url(../img/gallery.png);
+    background-image: url(img/gallery.png);
     background-repeat: no-repeat;
     background-position: center center;
   }
 
   .bg__img__gallery__two {
     position: absolute;
-    width: 44vh;
-    height: 36vh;
-    left: 24px;
+    width: 249px;
+    height: 199px;
+    left: 23px;
     top: 1px;
     background: #ffffff;
     border: 1px solid #bfbfbf;
@@ -299,9 +299,9 @@ h5 {
   }
   .bg__img__gallery__three {
     position: absolute;
-    width: 44vh;
-    height: 36vh;
-    left: 24px;
+    width: 249px;
+    height: 199px;
+    left: 23px;
     top: 1px;
     background: #ffffff;
     border: 1px solid #bfbfbf;
@@ -316,7 +316,7 @@ h5 {
   }
 
   .measure__bg {
-    background-image: url(../img/measure.png);
+    background-image: url(img/measure.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -439,7 +439,7 @@ h5 {
   }
   .h2__title {
     font-weight: bold;
-    font-size: 36px;
+    font-size: 26px;
     color: #4f4c4c;
     margin-left: 20px;
     margin-top: 30px;
@@ -785,7 +785,7 @@ h5 {
   /*\\\\\\\\\\\\\ landing \\\\\\\\\\\ */
 
   .landing__img {
-    background-image: url(../img/landing_bg.png);
+    background-image: url(img/landing_bg.png);
     background-repeat: no-repeat;
     max-width: 1240px;
     height: 340px;
@@ -1030,7 +1030,7 @@ h5 {
   }
 
   .header {
-    background-image: url(../img/bg.png);
+    background-image: url(img/bg.png);
     height: 700px;
     max-width: 100%;
     background-position: center bottom;
@@ -1112,7 +1112,7 @@ h5 {
     box-sizing: border-box;
     border-radius: 5px;
     left: 23px;
-    background-image: url(../img/gallery.png);
+    background-image: url(img/gallery.png);
     background-repeat: no-repeat;
     background-position: center center;
   }
@@ -1148,7 +1148,7 @@ h5 {
   }
 
   .measure__bg {
-    background-image: url(../img/measure.png);
+    background-image: url(img/measure.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1656,7 +1656,7 @@ h5 {
   /*\\\\\\\\\\\\\ landing \\\\\\\\\\\ */
 
   .landing__img {
-    background-image: url(../img/landing_bg.png);
+    background-image: url(img/landing_bg.png);
     background-repeat: no-repeat;
     max-width: 1240px;
     height: 340px;
@@ -1901,17 +1901,18 @@ h5 {
     color: #fff;
   }
 
-  .header {
-    background-image: url(../img/bg.png);
+  /* .header {
+    background-image: url(img/bg.png);
     height: 750px;
     max-width: 100%;
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  } */
 
-  .header__home {
+  .header {
     background-image: url(img/bg_two.png);
+    height: 750px;
     max-width: 100%;
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -1989,7 +1990,7 @@ h5 {
     box-sizing: border-box;
     border-radius: 5px;
     left: 23px;
-    background-image: url(../img/gallery.png);
+    background-image: url(img/gallery.png);
     background-repeat: no-repeat;
     background-position: center center;
   }
@@ -2025,7 +2026,7 @@ h5 {
   }
 
   .measure__bg {
-    background-image: url(../img/measure.png);
+    background-image: url(img/measure.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2523,7 +2524,7 @@ h5 {
   /*\\\\\\\\\\\\\ landing \\\\\\\\\\\ */
 
   .landing__img {
-    background-image: url(../img/landing_bg.png);
+    background-image: url(img/landing_bg.png);
     background-repeat: no-repeat;
     max-width: 1240px;
     height: 340px;
@@ -2775,7 +2776,7 @@ h5 {
   }
 
   .header {
-    background-image: url(../img/bg.png);
+    background-image: url(img/bg_two.png);
     height: 586px;
     max-width: 100%;
     background-position: center bottom;
@@ -2785,7 +2786,7 @@ h5 {
 
   .nav__position {
     position: absolute;
-    top: 165px;
+    top: 123px;
     max-width: 100%;
   }
 
@@ -2847,22 +2848,22 @@ h5 {
 
   .bg__img__gallery__one {
     position: absolute;
-    width: 65vh;
-    height: 254.54px;
+    width: 253px;
+    height: 192.54px;
     background: #ffffff;
     border: 1px solid #bfbfbf;
     box-sizing: border-box;
     border-radius: 5px;
     left: 23px;
-    background-image: url(../img/gallery.png);
+    background-image: url(img/gallery.png);
     background-repeat: no-repeat;
     background-position: center center;
   }
 
   .bg__img__gallery__two {
     position: absolute;
-    width: 65vh;
-    height: 255.48px;
+    width: 253px;
+    height: 192.54px;
     left: 24px;
     top: 1px;
     background: #ffffff;
@@ -2873,8 +2874,8 @@ h5 {
   }
   .bg__img__gallery__three {
     position: absolute;
-    width: 65vh;
-    height: 255.47px;
+    width: 253px;
+    height: 192.54px;
     left: 24px;
     top: 1px;
     background: #ffffff;
@@ -2891,7 +2892,7 @@ h5 {
   }
 
   .measure__bg {
-    background-image: url(../img/measure.png);
+    background-image: url(img/measure.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -3395,7 +3396,7 @@ h5 {
   /*\\\\\\\\\\\\\ landing \\\\\\\\\\\ */
 
   .landing__img {
-    background-image: url(../img/landing_bg.png);
+    background-image: url(img/landing_bg.png);
     background-repeat: no-repeat;
     max-width: 1240px;
     height: 340px;
@@ -3644,15 +3645,6 @@ h5 {
   }
 
   .header {
-    background-image: url(../img/bg.png);
-    height: 586px;
-    max-width: 100%;
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .header__home {
     background-image: url(img/bg_two.png);
     height: 586px;
     max-width: 100%;
@@ -3663,7 +3655,7 @@ h5 {
 
   .nav__position {
     position: absolute;
-    top: 180px;
+    top: 145px;
     max-width: 100%;
   }
   .features {
@@ -3672,18 +3664,20 @@ h5 {
     background: #ededed;
     margin-top: 118px;
     margin-left: 50px;
-    padding: 40px 94px 126px 23px;
   }
 
   .features__title {
     font-weight: bold;
     font-size: 42px;
+    padding-left: 23px;
+    padding-top: 40px;
   }
 
   .features__subtitle {
     color: #4f4c4c;
     font-size: 20px;
     padding-top: 30px;
+    padding-left: 23px;
   }
 
   .card__form {
@@ -3768,7 +3762,7 @@ h5 {
   }
 
   .measure__bg {
-    background-image: url(../img/measure.png);
+    background-image: url(img/measure.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4293,7 +4287,7 @@ h5 {
     box-sizing: border-box;
     border-radius: 5px;
     left: 23px;
-    background-image: url(../img/gallery.png);
+    background-image: url(img/gallery.png);
     background-repeat: no-repeat;
     background-position: center center;
   }
@@ -4326,7 +4320,7 @@ h5 {
   /*\\\\\\\\\\\\\ landing \\\\\\\\\\\ */
 
   .landing__img {
-    background-image: url(../img/landing_bg.png);
+    background-image: url(img/landing_bg.png);
     background-repeat: no-repeat;
     max-width: 1240px;
     height: 340px;
