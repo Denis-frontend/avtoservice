@@ -51,13 +51,16 @@ h5 {
   a.navbar-brand {
     margin: 0;
     background-image: url(img/logo.png);
-    width: 100%;
+    width: 80px;
     height: 70px;
     background-repeat: no-repeat;
   }
 
   .logo {
     padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+    display: flex;
   }
 
   .logo a img {
@@ -955,13 +958,16 @@ h5 {
   a.navbar-brand {
     margin: 0;
     background-image: url(img/logo.png);
-    width: 100%;
+    width: 80px;
     height: 70px;
     background-repeat: no-repeat;
   }
 
   .logo {
     padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+    display: flex;
   }
 
   .logo a img {
@@ -1858,13 +1864,16 @@ h5 {
   a.navbar-brand {
     margin: 0;
     background-image: url(img/logo.png);
-    width: 100%;
+    width: 80px;
     height: 70px;
     background-repeat: no-repeat;
   }
 
   .logo {
     padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+    display: flex;
   }
 
   .logo a img {
@@ -2765,7 +2774,7 @@ h5 {
   a.navbar-brand {
     margin: 0;
     background-image: url(img/logo.png);
-    width: 100%;
+    width: 80px;
     height: 70px;
     background-repeat: no-repeat;
   }
@@ -4240,7 +4249,7 @@ h5 {
   }
 
   .footer__address ul li {
-    font-size: 20px;
+    font-size: 18px;
     color: #ffffff;
     font-family: Lato;
     font-style: normal;
@@ -4248,7 +4257,7 @@ h5 {
   }
 
   .footer__address ul li a {
-    font-size: 20px;
+    font-size: 18px;
     color: #ffffff;
     font-family: Lato;
     font-style: normal;
