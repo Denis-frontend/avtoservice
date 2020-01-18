@@ -10,7 +10,6 @@ h5 {
 }
 
 @media (max-width: 575.98px) {
-
   /*\\\\\\\\\ хлебные крошки \\\\\\\\\\\\ */
   .breadcrumb-item + .breadcrumb-item::before {
     content: "-";
@@ -271,6 +270,31 @@ h5 {
     padding-left: 16px;
   }
 
+  .wrap__number {
+    position: absolute;
+    width: 41.97px;
+    height: 41.94px;
+    left: 248px;
+    bottom: 227px;
+    background: #46b1d0;
+    z-index: 999;
+    border-radius: 100%;
+  }
+
+  .number {
+    position: absolute;
+    width: 35.98px;
+    height: 30.96px;
+    left: 14px;
+    top: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;
+    color: #fff;
+  }
+
   .bg__img__gallery__one {
     position: absolute;
     width: 249px;
@@ -346,7 +370,7 @@ h5 {
   .wrap__img__min {
     display: inline;
     padding-left: 1px;
-}
+  }
   .img__min {
     margin-left: 29px;
     margin-top: 10px;
@@ -524,7 +548,7 @@ h5 {
 
   .our-works-text-center {
     text-align: center;
-}
+  }
   /* \\\\\\\\\\\\\ статьи \\\\\\\\\\\\\\\\\\ */
   .wrap__articles {
     padding-bottom: 50px;
@@ -671,11 +695,17 @@ h5 {
   .footer__address ul li {
     font-size: 4vh;
     color: #ffffff;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
   }
 
   .footer__address ul li a {
     font-size: 4vh;
     color: #ffffff;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
   }
 
   .footer__logo a {
@@ -780,7 +810,6 @@ h5 {
     margin-top: 10vh;
     margin-bottom: 10vh;
   }
-
 
   /*\\\\\\\\\\\\\ landing \\\\\\\\\\\ */
 
@@ -1103,6 +1132,31 @@ h5 {
     padding-left: 16px;
   }
 
+  .wrap__number {
+    position: absolute;
+    width: 41.97px;
+    height: 41.94px;
+    left: 303px;
+    bottom: 276px;
+    background: #46b1d0;
+    z-index: 999;
+    border-radius: 100%;
+  }
+
+  .number {
+    position: absolute;
+    width: 35.98px;
+    height: 30.96px;
+    left: 14px;
+    top: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;
+    color: #fff;
+  }
+  
   .bg__img__gallery__one {
     position: absolute;
     width: 315.46px;
@@ -1604,11 +1658,17 @@ h5 {
   .footer__address ul li {
     font-size: 7vh;
     color: #ffffff;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
   }
 
   .footer__address ul li a {
     font-size: 7vh;
     color: #ffffff;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
   }
 
   .footer__logo a {
@@ -1979,6 +2039,30 @@ h5 {
     font-size: 24px;
     color: #4f4c4c;
     padding-left: 16px;
+  }
+  .wrap__number {
+    position: absolute;
+    width: 41.97px;
+    height: 41.94px;
+    left: 303px;
+    bottom: 276px;
+    background: #46b1d0;
+    z-index: 999;
+    border-radius: 100%;
+  }
+
+  .number {
+    position: absolute;
+    width: 35.98px;
+    height: 30.96px;
+    left: 14px;
+    top: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;
+    color: #fff;
   }
 
   .bg__img__gallery__one {
@@ -2473,11 +2557,17 @@ h5 {
   .footer__address ul li {
     font-size: 24px;
     color: #ffffff;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
   }
 
   .footer__address ul li a {
     font-size: 24px;
     color: #ffffff;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
   }
 
   .footer__logo a {
@@ -2846,6 +2936,30 @@ h5 {
     padding-left: 16px;
   }
 
+  .wrap__number {
+    position: absolute;
+    width: 41.97px;
+    height: 41.94px;
+    left: 253px;
+    bottom: 276px;
+    background: #46b1d0;
+    z-index: 999;
+    border-radius: 100%;
+  }
+
+  .number {
+    position: absolute;
+    width: 35.98px;
+    height: 30.96px;
+    left: 14px;
+    top: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;
+    color: #fff;
+  }
   .bg__img__gallery__one {
     position: absolute;
     width: 253px;
@@ -2971,7 +3085,7 @@ h5 {
     font-weight: bold;
     font-size: 36px;
     color: #f2c877;
-    display:inline-block;
+    display: inline-block;
   }
 
   .price__btn {
@@ -3338,19 +3452,24 @@ h5 {
   }
 
   .footer__address ul li {
-    font-size: 15px;
+    font-size: 17px;
     color: #ffffff;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
   }
 
   .footer__address ul li a {
-    font-size: 15px;
+    font-size: 17px;
     color: #ffffff;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
   }
 
-    a.footer-tel {
-      margin-left: 24px;
+  a.footer-tel {
+    margin-left: 24px;
   }
- 
 
   .footer__logo a {
     font-size: 13px;
@@ -4121,18 +4240,24 @@ h5 {
   }
 
   .footer__address ul li {
-    font-size: 17px;
+    font-size: 20px;
     color: #ffffff;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
   }
 
   .footer__address ul li a {
-    font-size: 18px;
+    font-size: 20px;
     color: #ffffff;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
   }
 
   a.footer-tel {
     margin-left: 33px;
-}
+  }
 
   .footer__logo a {
     font-size: 13px;
@@ -4227,18 +4352,6 @@ h5 {
     display: inline-block;
   }
 
-  .price__btn {
-    width: 249px;
-    height: 49px;
-    background: #46b1d0;
-    border: 0;
-    border-radius: 10px;
-    color: #fff;
-    font-size: 18px;
-    text-align: center;
-    margin-top: 10px;
-  }
-
   .our-works__wrapper {
     margin-bottom: 89px;
   }
@@ -4252,6 +4365,36 @@ h5 {
     color: #4f4c4c;
     font-size: 18px;
     text-align: center;
+  }
+
+  .wrap__number {
+    position: absolute;
+    width: 41.97px;
+    height: 41.94px;
+    left: 316px;
+    bottom: 276px;
+    background: #46b1d0;
+    z-index: 999;
+    border-radius: 100%;
+  }
+
+  .number {
+    position: absolute;
+    width: 35.98px;
+    height: 30.96px;
+    left: 2px;
+    top: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;
+    /* or 31px */
+
+    text-align: center;
+    letter-spacing: -0.04em;
+
+    color: #ffffff;
   }
 
   .button__greey {
