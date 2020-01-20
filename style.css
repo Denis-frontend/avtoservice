@@ -4285,17 +4285,21 @@ h5 {
 
   .company__text__one {
     padding-bottom: 50px;
+    max-width: 100%;
   }
 
   .company__text__two {
-    margin-left: 61px;
+    margin-left: 10px;
+    max-width: 100%;
   }
 
   img.company__img__one,
   img.company__img__two {
     padding-bottom: 20px;
     text-align: center;
+    max-width: 100%;
   }
+
   /*\\\\\\\\\\\\ наши работы \\\\\\\\\ */
 
   .img__min {
